@@ -4,8 +4,8 @@
 //
 //  Created by Hanna on 11/12/23.
 //
-
 import Foundation
+
 
 struct Reminder {
     var title: String
@@ -13,6 +13,7 @@ struct Reminder {
     var notes: String? = nil
     var isComplete: Bool = false
 }
+
 
 #if DEBUG
 extension Reminder {
